@@ -34,7 +34,7 @@ const Childcard = ({title,bgcolor,description,orientation,num,textcolor,images,}
         </div>
       ) : (
        <div className={`w-full max-w-xl lg:h-124 h-130 rounded-3xl p-10 ${bgcolor} ${textcolor}  `}>
-        <div className="flex flex-col relative -rotate-90 lg:top-9 top-22 lg:-left-30 -left-20 ">
+        <div className="flex flex-col relative -rotate-90 lg:top-10 top-22 lg:-left-20 -left-20 ">
           <div className="lg:text-4xl text-2xl pt-3 font-bold text-wrap">
             {title}
           </div>
